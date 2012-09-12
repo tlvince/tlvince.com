@@ -1,0 +1,6 @@
+[submodule "public/contents/journal"]
+	path = public/contents/journal
+	url = /home/tom/doc/personal/journal-new
+[submodule "public/contents/assets"]
+	path = public/contents/assets
+	url = /home/tom/proj/websites/assets/tlvince
