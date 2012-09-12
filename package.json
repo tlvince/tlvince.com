@@ -1,0 +1,13 @@
+{
+    "name": "tlvince",
+    "version": "0.0.1",
+    "private": true,
+    "engines": {
+      "node": "0.8.x"
+    },
+    "dependencies": {
+      "wintersmith": "1.x.x",
+      "wintersmith-stylus": "0.x.x",
+      "connect": "2.x.x"
+    }
+}
