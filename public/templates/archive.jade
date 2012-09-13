@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  - var entries = _.chain(contents.journal.entry._.pages).sortBy(function(item) {
+  -   return -item.date
+  - }).value()
+
+  section.archive
+    header: h1 Archive
+    ul
+      for entry in entries
+        li
+          a(href=entry.url)= entry.title
+          p=entry._metadata.abstract
