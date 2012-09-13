@@ -1,1 +1,7 @@
-p: a(href= locals.url) &copy; 2005-#{new Date().getFullYear()} #{locals.author}
+small
+  a(href=locals.url) &copy; 2005-#{new Date().getFullYear()} #{locals.author}
+  nav
+    ul
+      li: a(href='/about') about
+      li: a(href='/archive') archive
+      li: a(href='/contact') contact
