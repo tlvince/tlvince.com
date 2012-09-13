@@ -1,13 +1,13 @@
 {
-  'locals': {
-    'title': 'tlvince',
-    'description': 'Essays on hacking, travel and self-improvement',
-    'author': 'Tom Vincent',
-    'email': 'blog@tlvince.com',
-    'url': 'http://tlvince.com',
-    'index_count': 9
+  "locals": {
+    "title": "Blog | Tom Vincent",
+    "description": "Essays on hacking, travel and self-improvement",
+    "author": "Tom Vincent",
+    "email": "blog@tlvince.com",
+    "url": "http://tlvince.com",
+    "index_count": 1
   },
-  'plugins': [
-    'wintersmith-stylus'
+  "plugins": [
+    "/home/tom/proj/websites/tlvince/node_modules/wintersmith-less"
   ]
 }
