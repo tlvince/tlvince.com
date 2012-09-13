@@ -8,5 +8,7 @@ block content
   for entry in entries
     article
       header
-        h1=entry.title
-      !{entry.html}
+        h1: a(href=entry.url)= entry.title
+      section.content!= entry.intro
+      if entry.hasMore
+        p.read-more: a(href=entry.url) &hellip; read more
