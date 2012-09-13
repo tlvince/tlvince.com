@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  - var entries = _.chain(contents.journal.entry._.pages).sortBy(function(item) {
+  -   return -item.date
+  - }).first(locals.index_count).value()
+
+  for entry in entries
+    article
+      header
+        h1=entry.title
+      !{entry.html}
