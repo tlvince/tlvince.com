@@ -26,6 +26,7 @@ push:
 	git push heroku master
 
 compile:
+	rm -rf node_modules/wintersmith/lib
 	node_modules/wintersmith/node_modules/.bin/coffee \
 		-o node_modules/wintersmith/lib \
 		-b -c node_modules/wintersmith/src
