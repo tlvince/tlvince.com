@@ -6,8 +6,8 @@
       "node": "0.8.x"
     },
     "dependencies": {
-      "wintersmith": "git+https://github.com/tlvince/wintersmith.git#mkd",
-      "wintersmith-less": "0.x.x",
+      "wintersmith": "git+https://github.com/tlvince/wintersmith.git#blog",
+      "wintersmith-less": "git+https://github.com/tlvince/wintersmith-less.git#compress",
       "wintersmith-pandoc": "git+https://github.com/tlvince/wintersmith-pandoc.git#mkd",
       "connect": "2.x.x"
     }
