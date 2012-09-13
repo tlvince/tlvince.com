@@ -5,7 +5,7 @@
     "author": "Tom Vincent",
     "email": "blog@tlvince.com",
     "url": "http://tlvince.com",
-    "index_count": 1
+    "index_count": 3
   },
   "plugins": [
     "/home/tom/proj/websites/tlvince/node_modules/wintersmith-less"
