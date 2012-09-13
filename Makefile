@@ -25,4 +25,9 @@ push:
 	git push origin master
 	git push heroku master
 
-.PHONY: all build preview push
+compile:
+	node_modules/wintersmith/node_modules/.bin/coffee \
+		-o node_modules/wintersmith/lib \
+		-b -c node_modules/wintersmith/src
+
+.PHONY: all build preview push compile
