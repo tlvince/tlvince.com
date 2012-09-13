@@ -1,0 +1,27 @@
+title: Contact
+date: 2012-09-13
+abstract: Contact Tom Vincent
+template: entry.jade
+
+If you'd like to contact me, PGP encrypted email is best. Here is my public key:
+**[tlvince.asc][]** (0xE6AEACDE).
+
+If that sounds like gobbledygook, please use: <hello@tlvince.com>
+
+You my also find me on:
+
+* [Twitter][]
+* [Flickr][] (best viewed on [Fluidr][])
+* [GitHub][]
+* [Stack Exchange][]
+* [LinkedIn][]
+* [Flattr][]
+
+  [LinkedIn]: https://www.linkedin.com/in/tlvince "tlvince's profile on LinkedIn"
+  [Twitter]: https://twitter.com/#!/tlvince "tlvince's profile on Twitter"
+  [GitHub]: https://github.com/tlvince "tlvince's profile on GitHub"
+  [Stack Exchange]: https://stackexchange.com/users/179405?tab=accounts "tlvince's profiles on Stack Exchange"
+  [tlvince.asc]: https://tlvince.appspot.com/tlvince.asc "tlvince's PGP public key"
+  [Flickr]: https://secure.flickr.com/photos/tlvince "tlvince's profile on Flickr"
+  [Fluidr]: http://www.fluidr.com/photos/tlvince "tlvince's profile on Fluidr"
+  [Flattr]: https://flattr.com/profile/tlvince "tlvince's profile on Flattr"

@@ -1,0 +1,32 @@
+title: About
+date: 2012-09-13
+abstract: About tlvince.com
+template: entry.jade
+
+<span id="mugshot">![mug]</span>
+
+**Hi!**  
+I'm *Tom Vincent*, a Computer Science undergraduate from England.
+
+I specialise in *artifitial intelligence*, with experience in *investment
+banking*, *web development* and *teaching*, always striving for simplicity and
+elegance.[^1]
+
+Creativity is at the heart of my philosophy. I have an extensive background in
+*music*, *audio production* and *photography*. I'm a *fitness and nutrition*
+enthusiast and a pursuer of *logical reasoning*.
+
+I write predominantly on *travelling* in South East Asia, the ever-inspiring
+*open source* community and lessons on *self-improvement*. You'll also find
+samples of my [programming and artistic endeavours][proj].
+
+**Thanks** for stopping by!
+
+[^1]: > Making the simple complicated is commonplace. Making the complicated
+simple -- awesomely simple -- that's creativity.
+>
+> -- <cite>[Charles Mingus][]</cite>
+
+  [mug]: http://www.gravatar.com/avatar/4103b4e9e71e7d5f14b740c9d36c231f?s=140&d=mm&r=PG "My mug shot"
+  [Charles Mingus]: http://en.wikipedia.org/wiki/Charles_Mingus "Wikipedia entry on Charles Mingus"
+  [proj]: /tag/project
