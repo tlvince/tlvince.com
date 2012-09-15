@@ -151,7 +151,7 @@ h5bp.server = function (serverConstructor, options) {
    if (server.use) {
       stack.unshift(serverConstructor.logger('dev'));
       stack.push(
-         //serverConstructor.compress(), // express doesn't seem to expose this middleware
+         serverConstructor.compress(), // express doesn't seem to expose this middleware
          serverConstructor['static'](options.root, { maxAge: options.maxAge }), // static is a reserved
          serverConstructor.favicon(options.root, { maxAge: options.maxAge }),
          serverConstructor.errorHandler({
