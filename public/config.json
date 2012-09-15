@@ -10,5 +10,14 @@
   },
   "plugins": [
     "/home/tom/proj/websites/tlvince/node_modules/wintersmith-less"
+  ],
+  "ignore": [
+    "assets/README.mkd",
+    "assets/style/elements.less",
+    "assets/style/font-sorts-mill-goudy.less",
+    "assets/style/github.less",
+    "assets/style/bootstrap",
+    "journal/Rakefile",
+    "journal/readme.mkd"
   ]
 }
