@@ -7,8 +7,9 @@
     },
     "dependencies": {
       "wintersmith": "git+https://github.com/tlvince/wintersmith.git#blog",
-      "wintersmith-less": "git+https://github.com/tlvince/wintersmith-less.git#compress",
+      "wintersmith-less": "0.1.x",
       "wintersmith-pandoc": "git+https://github.com/tlvince/wintersmith-pandoc.git#mkd",
-      "connect": "2.x.x"
+      "connect": "2.x.x",
+      "connect-assetmanager": "0.0.x"
     }
 }
