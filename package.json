@@ -9,7 +9,7 @@
       "wintersmith": "git+https://github.com/tlvince/wintersmith.git#blog",
       "wintersmith-less": "0.1.x",
       "wintersmith-pandoc": "git+https://github.com/tlvince/wintersmith-pandoc.git#mkd",
-      "connect": "2.x.x",
+      "express": "3.0.x",
       "connect-assetmanager": "0.0.x"
     }
 }
