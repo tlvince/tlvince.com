@@ -1,5 +1,4 @@
 title: Contact
-date: 2012-09-13
 abstract: Contact Tom Vincent
 template: entry.jade
 

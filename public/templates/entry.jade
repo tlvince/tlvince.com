@@ -11,6 +11,7 @@ block content
     header
       h1=page.title
     section.content!= page.html
-    small
-      p.muted
-        include ../includes/date
+    if page._metadata.date
+      small
+        p.muted
+          include ../includes/date
