@@ -3,7 +3,7 @@ date: 2012-09-13
 abstract: About tlvince.com
 template: entry.jade
 
-<span id="mugshot">![mug]</span>
+<span class="pull-right">![mug]</span>
 
 **Hi!**  
 I'm *Tom Vincent*, a Computer Science undergraduate from England.
