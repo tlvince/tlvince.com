@@ -1,0 +1,15 @@
+extends layout
+
+block prepend title
+  | 500 | 
+
+block content
+  article
+    header
+      h1 Server error
+    section.content
+      p Sorry, an unexpected error seems to have occurred.
+      p Why not try refreshing the page?
+      p If the problem persists, 
+        a(href='/contact') contact
+        |  me.
