@@ -10,6 +10,8 @@ all: build
 
 build: clean
 	$(bin)/wintersmith build --output ../$(out) --chdir $(in)
+	mv $(out)/journal/entry/* $(out)
+	rm -rf $(out)/journal
 
 preview:
 	$(bin)/wintersmith preview --chdir $(in)
