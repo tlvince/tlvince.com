@@ -1,5 +1,7 @@
 var express      = require('express'),
     assetManager = require('connect-assetmanager'),
+    poweredBy    = require('connect-powered-by'),
+    nowww        = require('connect-no-www'),
     app          = express(),
     port         = process.env.PORT || 3000,
     oneDay       = 86400000;
@@ -18,6 +20,8 @@ var assetsManagerMiddleware = assetManager(assetManagerGroups);
 app.use(express.compress());
 app.use(express.logger('short'));
 app.use(assetsManagerMiddleware);
+app.use(poweredBy(null));
+app.use(nowww());
 app.use(express.favicon(__dirname + '/build/assets'));
 app.use(express.static(__dirname + '/build', { maxAge: oneDay }));
 

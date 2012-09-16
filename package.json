@@ -10,6 +10,8 @@
       "wintersmith-less": "0.1.x",
       "wintersmith-pandoc": "git+https://github.com/tlvince/wintersmith-pandoc.git#mkd",
       "express": "3.0.x",
-      "connect-assetmanager": "0.0.x"
+      "connect-assetmanager": "0.0.x",
+      "connect-powered-by": "0.1.x",
+      "connect-no-www": "git+https://github.com/tlvince/connect-no-www.git#deps"
     }
 }
