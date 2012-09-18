@@ -4,6 +4,8 @@
 
 Powered by Node.js and wintersmith.
 
-Copyright 2012 Tom Vincent <http://tlvince.com/contact/>.
+## Author
+
+Copyright 2012 Tom Vincent <http://tlvince.com/contact>.
 
   [1]: http://tlvince.com
