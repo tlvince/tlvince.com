@@ -2,7 +2,7 @@ title: About
 abstract: About tlvince.com
 template: entry.jade
 
-<span class="pull-right">![mug]</span>
+<span class="pull-right">![mugshot]</span>
 
 **Hi!**  
 I'm *Tom Vincent*, a Computer Science undergraduate from England.
@@ -26,6 +26,6 @@ simple -- awesomely simple -- that's creativity.
 >
 > -- <cite>[Charles Mingus][]</cite>
 
-  [mug]: http://www.gravatar.com/avatar/4103b4e9e71e7d5f14b740c9d36c231f?s=140&d=mm&r=PG "My mug shot"
+  [mugshot]: /assets/img/mugshot.jpg
   [Charles Mingus]: http://en.wikipedia.org/wiki/Charles_Mingus "Wikipedia entry on Charles Mingus"
   [proj]: /tag/project
