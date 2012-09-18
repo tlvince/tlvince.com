@@ -1,6 +1,6 @@
 [submodule "public/contents/journal"]
 	path = public/contents/journal
-	url = /home/tom/doc/personal/journal-new
+	url = https://github.com/tlvince/journal.git
 [submodule "public/contents/assets"]
 	path = public/contents/assets
-	url = /home/tom/proj/websites/assets/tlvince
+	url = https://github.com/tlvince/tlvince-assets.git
