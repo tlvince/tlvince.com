@@ -13,6 +13,9 @@ build: clean
 	mv $(out)/journal/entry/* $(out)
 	rm -rf $(out)/journal
 
+	# Hacky Pandoc-like smart punctuation
+	sed -i -e "s/\.\.\./…/g" -e "s/ --- / — /g" $(out)/*.html $(out)/feed
+
 preview:
 	$(bin)/wintersmith preview --chdir $(in)
 
