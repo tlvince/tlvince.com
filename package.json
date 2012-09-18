@@ -11,6 +11,7 @@
       "express": "3.0.x",
       "connect-assetmanager": "0.0.x",
       "connect-powered-by": "0.1.x",
-      "connect-no-www": "git+https://github.com/tlvince/connect-no-www.git#deps"
+      "connect-no-www": "git+https://github.com/tlvince/connect-no-www.git#deps",
+      "coffee-script": "1.3.x"
     }
 }
