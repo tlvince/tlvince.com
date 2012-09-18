@@ -5,11 +5,11 @@ template: entry.jade
 <span class="pull-right">![mugshot]</span>
 
 **Hi!**  
-I'm *Tom Vincent*, a Computer Science undergraduate from England.
+I'm *Tom Vincent*, a software engineer from England.
 
 I specialise in *artifitial intelligence*, with experience in *investment
 banking*, *web development* and *teaching*, always striving for simplicity and
-elegance.[^1]
+elegance.
 
 Creativity is at the heart of my philosophy. I have an extensive background in
 *music*, *audio production* and *photography*. I'm a *fitness and nutrition*
@@ -21,11 +21,10 @@ samples of my [programming and artistic endeavours][proj].
 
 **Thanks** for stopping by!
 
-[^1]: > Making the simple complicated is commonplace. Making the complicated
-simple -- awesomely simple -- that's creativity.
->
-> -- <cite>[Charles Mingus][]</cite>
+> Making the simple complicated is commonplace. Making the complicated
+> simple --- awesomely simple --- that's creativity.
+> <small>[Charles Mingus][]</small>
 
-  [mugshot]: /assets/img/mugshot.jpg
+  [mugshot]: /assets/img/mugshot.jpg "A cold summers day on the Eiffel tower"
   [Charles Mingus]: http://en.wikipedia.org/wiki/Charles_Mingus "Wikipedia entry on Charles Mingus"
-  [proj]: /tag/project
+  [proj]: http://portfolio.tlvince.com
