@@ -9,7 +9,7 @@
     "default_template": "entry.jade"
   },
   "plugins": [
-    "/home/tom/proj/websites/tlvince/node_modules/wintersmith-less"
+    "wintersmith-less"
   ],
   "ignore": [
     "assets/README.mkd",
