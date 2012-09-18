@@ -16,8 +16,7 @@ Creativity is at the heart of my philosophy. I have an extensive background in
 enthusiast and a pursuer of *logical reasoning*.
 
 I write predominantly on *travelling* in South East Asia, the ever-inspiring
-*open source* community and lessons on *self-improvement*. You'll also find
-samples of my [programming and artistic endeavours][proj].
+*open source* community and lessons on *self-improvement*.
 
 **Thanks** for stopping by!
 
@@ -27,4 +26,3 @@ samples of my [programming and artistic endeavours][proj].
 
   [mugshot]: /assets/img/mugshot.jpg "A cold summers day on the Eiffel tower"
   [Charles Mingus]: http://en.wikipedia.org/wiki/Charles_Mingus "Wikipedia entry on Charles Mingus"
-  [proj]: http://portfolio.tlvince.com
