@@ -5,8 +5,6 @@ template: entry.jade
 If you'd like to contact me, PGP encrypted email is best. Here is my public key:
 **[tlvince.asc][]** (0xE6AEACDE).
 
-If that sounds like gobbledygook, please use: <hello@tlvince.com>
-
 You my also find me on:
 
 * [Twitter][]
@@ -15,6 +13,8 @@ You my also find me on:
 * [Stack Exchange][]
 * [LinkedIn][]
 * [Flattr][]
+
+If none of the above suit, you can always email me on: <hello@tlvince.com>
 
   [LinkedIn]: https://www.linkedin.com/in/tlvince "tlvince's profile on LinkedIn"
   [Twitter]: https://twitter.com/#!/tlvince "tlvince's profile on Twitter"
