@@ -25,7 +25,7 @@ push:
 
 compile:
 	rm -rf node_modules/wintersmith/lib
-	node_modules/wintersmith/node_modules/.bin/coffee \
+	node_modules/coffee-script/bin/coffee \
 		-o node_modules/wintersmith/lib \
 		-b -c node_modules/wintersmith/src
 
