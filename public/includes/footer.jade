@@ -1,7 +1,8 @@
-small
-  a(href='/', title='Home')
-    &copy; 2005–#{new Date().getFullYear()} #{locals.author}
-  nav
+nav
+  small
+    span
+      a(href='/', title='Home')
+        &copy; 2005–#{new Date().getFullYear()} #{locals.author}
     ul
       li: a(href='/about') about
       li: a(href='/archive') archive
