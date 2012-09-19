@@ -19,7 +19,7 @@ app.use express.compress()
 app.use express.logger('short')
 app.use poweredBy()
 app.use nowww()
-app.use express.favicon("#{build}/assets")
+app.use express.favicon("#{build}/favicon.ico")
 app.use express.static(build, maxAge: oneDay)
 
 # Routes
