@@ -29,13 +29,13 @@ app.get '/:entry$', (req, res) ->
       maxAge: oneDay
 
 app.get '/:year/:month/:day/:entry/', (req, res) ->
-  res.redirect req.params.entry
+  res.redirect 301, req.params.entry
 
 app.get '/archives/', (req, res) ->
-  res.redirect 'archive'
+  res.redirect 301, 'archive'
 
 app.get '/:entry/$', (req, res) ->
-  res.redirect req.params.entry
+  res.redirect 301, req.params.entry
 
 # Error handling
 app.use (req, res, next) ->
