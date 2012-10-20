@@ -4,3 +4,6 @@
 [submodule "public/contents/assets"]
 	path = public/contents/assets
 	url = https://github.com/tlvince/tlvince-assets.git
+[submodule "public/contents/comments"]
+	path = public/contents/comments
+	url = https://github.com/tlvince/tlvince-comments.git
