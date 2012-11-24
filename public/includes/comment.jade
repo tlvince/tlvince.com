@@ -1,0 +1,15 @@
+- var permalink = 'comment' + index;
+
+.comment
+  blockquote(id=permalink)
+    - var content = marked(comment._content)
+    | !{content}
+    p
+      small
+        if comment._metadata.url
+          a(href=comment._metadata.url)=comment._metadata.name
+        else
+          =comment._metadata.name
+        | , 
+        a(href='\##{permalink}')
+          mixin date(comment._metadata.date)
