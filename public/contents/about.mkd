@@ -1,6 +1,6 @@
 title: About
 abstract: About tlvince.com
-template: entry.jade
+template: page.jade
 
 <span class="pull-right">![mugshot]</span>
 
