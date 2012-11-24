@@ -6,7 +6,8 @@
     "email": "blog@tlvince.com",
     "url": "http://tlvince.com",
     "index_count": 3,
-    "default_template": "entry.jade"
+    "default_template": "entry.jade",
+    "comment_email": "comment@tlvince.com"
   },
   "plugins": [
     "wintersmith-less"
