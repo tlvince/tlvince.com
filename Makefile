@@ -12,8 +12,6 @@ build: clean
 	$(bin)/wintersmith build --output ../$(out) --chdir $(in)
 	mv $(out)/journal/entry/* $(out)
 	rm -rf $(out)/journal
-	# Hacky Pandoc-like smart punctuation
-	sed -i -e "s/\.\.\./…/g" -e "s/ --- / — /g" $(out)/*.html $(out)/feed
 	for i in $(out)/assets/*; do \
 		if test -f $$i; then mv $$i $(out); fi \
 	done
