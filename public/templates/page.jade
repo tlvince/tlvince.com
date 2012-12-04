@@ -10,10 +10,11 @@ block content
   article
     header
       h1=page.title
-    section.content!= page.html
+    section#content!= page.html
     if page._metadata.date
-      small
-        p.muted
-          include ../includes/date
-          mixin date(page.date)
+      section#meta
+        small
+          p.muted
+            include ../includes/date
+            mixin date(page.date)
     block comments
