@@ -1,6 +1,7 @@
 - var permalink = 'comment' + index;
 
-blockquote.comment(id=permalink)
+blockquote(id=permalink,
+  class="#{comment._metadata.reply ? 'comment reply' : 'comment'}")
   - var content = marked(comment._content)
   | !{content}
   p
