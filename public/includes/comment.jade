@@ -3,6 +3,7 @@
 blockquote(id=permalink,
   class="#{comment._metadata.reply ? 'comment reply' : 'comment'}")
   - var content = marked(comment._content)
+  - content = typogr.typogrify(content)
   | !{content}
   p
     small
