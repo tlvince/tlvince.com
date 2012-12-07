@@ -2,21 +2,19 @@ title: About
 abstract: About tlvince.com
 template: page.jade
 
-<span class="pull-right">![mugshot]</span>
-
 **Hi!**  
+<span class="pull-right">![mugshot]</span>
 I'm *Tom Vincent*, a software engineer from England.
 
 I specialise in *artifitial intelligence*, with experience in *investment
-banking*, *web development* and *teaching*, always striving for simplicity and
-elegance.
+banking*, *web development* and *teaching*.
 
-Creativity is at the heart of my philosophy. I have an extensive background in
-*music*, *audio production* and *photography*. I'm a *fitness and nutrition*
-enthusiast and a pursuer of *logical reasoning*.
+I'm also well versed in *music*, *audio production* and *photography* and am a
+*fitness and nutrition* enthusiast.
 
-I write predominantly on *travelling* in South East Asia, the ever-inspiring
-*open source* community and lessons on *self-improvement*.
+Whilst this is primarily a technical blog, I also write on *travelling* in
+South East Asia, the ever-inspiring *open source* community and lessons on
+*self-improvement*.
 
 **Thanks** for stopping by!
 
@@ -25,4 +23,4 @@ I write predominantly on *travelling* in South East Asia, the ever-inspiring
 > <small>[Charles Mingus][]</small>
 
   [mugshot]: /assets/img/mugshot.jpg "A cold summers day on the Eiffel tower"
-  [Charles Mingus]: http://en.wikipedia.org/wiki/Charles_Mingus "Wikipedia entry on Charles Mingus"
+  [Charles Mingus]: https://en.wikipedia.org/wiki/Charles_Mingus "Wikipedia entry on Charles Mingus"
