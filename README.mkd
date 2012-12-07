@@ -2,7 +2,7 @@
 
 [tlvince.com][1].
 
-Powered by Node.js and wintersmith.
+Powered by Node.js, Wintersmith, typogr.js and identify.js.
 
 ## Author
 
