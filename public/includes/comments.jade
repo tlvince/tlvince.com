@@ -1,4 +1,4 @@
-- var url = page.url.split('/')[1];
+- var url = page.url.substring(page.url.indexOf('/') + 1).replace(/\//g, '-');
 - var email = locals.comment_email.split('@');
 - var mailto = email[0] + '+' + url + '@' + email[1];
 
