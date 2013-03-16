@@ -1,0 +1,25 @@
+extends layout
+
+block prepend title
+  | Laboratory | 
+
+block description
+  meta(name='description', content='Small experiments by Tom Vincent')
+
+block content
+  - var entries = _.chain(contents.lab._.pages).sortBy(function(item) {
+  -   return -item.date
+  - }).groupBy(function(item) {
+  -   return item.date.getFullYear()
+  - }).value()
+
+  section.lab
+    header: h1 Laboratory
+    each year in _.chain(entries).keys().reverse().value()
+      section.year
+        header: h2= year
+        ul
+          each entry in entries[year]
+            li(class=entry._metadata.tags)
+              a(href=entry._metadata.url)= entry.title
+              p=entry._metadata.abstract
