@@ -1,5 +1,11 @@
 extends layout
 
+block prepend title
+  | Archive | 
+
+block description
+  meta(name='description', content='The archives')
+
 block content
   - var entries = _.chain(contents.journal.entry._.pages).sortBy(function(item) {
   -   return -item.date
