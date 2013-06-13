@@ -12,6 +12,11 @@
   "plugins": [
     "wintersmith-less"
   ],
+  "require": {
+    "moment": "moment",
+    "_": "underscore",
+    "typogr": "typogr"
+  },
   "ignore": [
     "assets/README.mkd",
     "assets/style/elements.less",
