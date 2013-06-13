@@ -6,7 +6,7 @@
     "email": "blog@tlvince.com",
     "url": "http://tlvince.com",
     "index_count": 3,
-    "default_template": "post.jade",
+    "defaultTemplate": "post.jade",
     "comment_email": "comment@tlvince.com"
   },
   "plugins": [
