@@ -17,8 +17,6 @@
     "connect-no-www": "git+https://github.com/tlvince/connect-no-www.git#deps",
     "coffee-script": "1.3.x"
   },
-  "readmeFilename": "README.mkd",
-  "gitHead": "0895f17140c593832a03cd068d6224442532b377",
   "description": "Essays on hacking, travel and self-improvement",
   "main": "server.coffee",
   "devDependencies": {
