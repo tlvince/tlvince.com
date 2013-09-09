@@ -1,6 +1,8 @@
+```metadata
 title: About
 abstract: About tlvince.com
 template: page.jade
+```
 
 **Hi!**  
 <span class="pull-right">![mugshot]</span>

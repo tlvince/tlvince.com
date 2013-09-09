@@ -1,6 +1,8 @@
+```metadata
 title: Contact
 abstract: Contact Tom Vincent
 template: page.jade
+```
 
 If you'd like to contact me, PGP encrypted email is best. Here is my public key:
 **[tlvince.asc][]** ([MIT mirror][mit]). Its fingerprint is:
