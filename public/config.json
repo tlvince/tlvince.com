@@ -9,6 +9,7 @@
     "defaultTemplate": "post.jade",
     "comment_email": "comment@tlvince.com"
   },
+  "filenameTemplate": ":title",
   "plugins": [
     "wintersmith-less"
   ],
