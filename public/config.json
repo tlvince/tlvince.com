@@ -5,18 +5,20 @@
     "author": "Tom Vincent",
     "email": "blog@tlvince.com",
     "url": "http://tlvince.com",
-    "index_count": 3,
     "defaultTemplate": "post.jade",
     "comment_email": "comment@tlvince.com"
   },
   "filenameTemplate": ":title",
   "plugins": [
-    "wintersmith-less"
+    "wintersmith-stylus"
   ],
   "require": {
     "moment": "moment",
     "_": "underscore",
     "typogr": "typogr"
+  },
+  "stylus": {
+    "compress": true
   },
   "ignore": [
     "assets/README.mkd",
