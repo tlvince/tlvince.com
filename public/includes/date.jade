@@ -1,6 +1,4 @@
 mixin date(date)
   - var date = moment(date)
   time(datetime=date.format(), title=date)
-    !{date.format('D')}
-    sup=moment.ordinal(date.format('D'))
-    !{date.format(' MMMM, YYYY')}
+  !{date.format('Do MMMM, YYYY')}
