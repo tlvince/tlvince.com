@@ -1,15 +1,19 @@
 extends layout
+include ../includes/date
+
+block append vars
+  - bodyclass = 'home'
 
 block content
-  - var entries = _.chain(contents.journal._.pages).sortBy(function(item) {
+  - articles = _.chain(contents.journal._.pages).sortBy(function(item) {
   -   return -item.date
-  - }).first(locals.index_count).value()
-  - console.log(entries);
+  - }).value()
 
-  for entry in entries
-    article
-      header
-        h1: a(href=entry.url)= entry.title
-      section.content!= entry.intro
-      if entry.hasMore
-        p.read-more: a(href=entry.url) … read more
+  ul
+    for article in articles
+      li
+        article
+          header
+            h2: a(href=article.url)= article.title
+            mixin date(article.metadata.date)
+          p= article.metadata.abstract

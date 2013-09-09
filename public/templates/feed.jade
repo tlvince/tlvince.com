@@ -5,22 +5,20 @@ rss(version='2.0',
     xmlns:dc='http://purl.org/dc/elements/1.1/'
     xmlns:atom='http://www.w3.org/2005/Atom')
   channel
-    - var entries = _.chain(contents.journal.entry._.pages).sortBy(function(item) {
-    -   return -item.date
-    - }).value()
+    - articles = contents.journal._.pages
     title= locals.name
-    atom:link(href=locals.url + '/feed', rel='self', type='application/rss+xml')
+    atom:link(href=locals.url + '/feed.xml', rel='self', type='application/rss+xml')
     link= locals.url
     description= locals.description
-    pubDate= entries[0].rfc822date
-    generator The mighty Wintersmith
+    pubDate= articles[0].rfc822date
     language en
-    for entry in entries
-      - var permalink = locals.url + entry.url
+    for article in articles
+      - var permalink = locals.url + article.url
       item
-        title= entry.title
+        title= article.title
         link= permalink
-        pubDate= entry.rfc822date
+        pubDate= article.rfc822date
         guid(isPermaLink='true')= permalink
-        author= entry.author
-        description= entry.getHtml(locals.url) // passing locals.url resolves all relative urls to absolute
+        author= article.author
+        //- passing locals.url resolves all relative urls to absolute
+        description= article.getHtml(locals.url)

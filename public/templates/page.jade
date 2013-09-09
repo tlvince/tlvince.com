@@ -1,7 +1,8 @@
 extends layout
+include ../includes/date
 
 block prepend title
-  | #{ page.title } | 
+  | #{ page.title } |&nbsp;
 
 block description
   meta(name='description', content=page.metadata.abstract)
@@ -10,11 +11,6 @@ block content
   article
     header
       h1=page.title
-    section#content!= page.html
-    if page.metadata.date
-      section#meta
-        small
-          p.muted#date-authored
-            include ../includes/date
-            mixin date(page.date)
-    block comments
+      if page.metadata.date
+        mixin date(page.metadata.date)
+    section#content!{typogr.typogrify(page.html)}

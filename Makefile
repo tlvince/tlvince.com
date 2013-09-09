@@ -10,13 +10,6 @@ all: build
 
 build: clean
 	$(bin)/wintersmith build --output ../$(out) --chdir $(in)
-	mv $(out)/journal/* $(out)
-	for i in journal comments lab; do \
-		rm -rf $(out)/$$i; \
-	done
-	for i in $(out)/assets/*; do \
-		if test -f $$i; then mv $$i $(out); fi \
-	done
 
 preview:
 	$(bin)/wintersmith preview --chdir $(in)

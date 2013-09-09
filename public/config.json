@@ -5,10 +5,10 @@
     "author": "Tom Vincent",
     "email": "blog@tlvince.com",
     "url": "http://tlvince.com",
-    "defaultTemplate": "post.jade",
     "comment_email": "comment@tlvince.com"
   },
-  "filenameTemplate": ":title",
+  "filenameTemplate": "/:title.html",
+  "defaultTemplate": "page.jade",
   "plugins": [
     "wintersmith-stylus"
   ],
@@ -20,13 +20,15 @@
   "stylus": {
     "compress": true
   },
+  "markdown": {
+    "smartLists": true,
+    "smrtypants": true
+  },
   "ignore": [
-    "assets/README.mkd",
-    "assets/style/elements.less",
-    "assets/style/font-sorts-mill-goudy.less",
-    "assets/style/github.less",
-    "assets/style/bootstrap",
+    "assets/README.mkdown",
+    "assets/styles/vendor",
     "journal/Rakefile",
-    "journal/readme.mkd"
+    "journal/readme.mkd",
+    "comments"
   ]
 }
