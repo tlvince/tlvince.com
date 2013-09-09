@@ -10,7 +10,7 @@
     "wintersmith-less": "~0.2.1",
     "typogr": "~0.5.2",
     "underscore": "~1.4.4",
-    "moment": "~2.0.0",
+    "moment": "~2.1.0",
     "express": "~3.0.6",
     "connect-assetmanager": "0.0.28",
     "connect-powered-by": "~0.1.0",
