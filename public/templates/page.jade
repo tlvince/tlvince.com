@@ -11,7 +11,7 @@ block content
     header
       h1=page.title
     section#content!= page.html
-    if page._metadata.date
+    if page.metadata.date
       section#meta
         small
           p.muted#date-authored

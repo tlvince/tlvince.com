@@ -10,7 +10,7 @@ all: build
 
 build: clean
 	$(bin)/wintersmith build --output ../$(out) --chdir $(in)
-	mv $(out)/journal/entry/* $(out)
+	mv $(out)/journal/* $(out)
 	for i in journal comments lab; do \
 		rm -rf $(out)/$$i; \
 	done

@@ -1,9 +1,10 @@
 extends layout
 
 block content
-  - var entries = _.chain(contents.journal.entry._.pages).sortBy(function(item) {
+  - var entries = _.chain(contents.journal._.pages).sortBy(function(item) {
   -   return -item.date
   - }).first(locals.index_count).value()
+  - console.log(entries);
 
   for entry in entries
     article

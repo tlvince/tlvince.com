@@ -7,7 +7,7 @@ block description
   meta(name='description', content='The archives')
 
 block content
-  - var entries = _.chain(contents.journal.entry._.pages).sortBy(function(item) {
+  - var entries = _.chain(contents.journal._.pages).sortBy(function(item) {
   -   return -item.date
   - }).value()
 
@@ -17,4 +17,4 @@ block content
       for entry in entries
         li
           a(href=entry.url)= entry.title
-          p=entry._metadata.abstract
+          p=entry.metadata.abstract
