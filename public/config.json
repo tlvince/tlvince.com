@@ -16,7 +16,8 @@
     "moment": "moment",
     "_": "underscore",
     "typogr": "typogr",
-    "identify": "identify"
+    "identify": "identify",
+    "marked": "marked"
   },
   "stylus": {
     "compress": true,
@@ -29,7 +30,6 @@
   "ignore": [
     "assets/README.mkdown",
     "assets/styles/vendor",
-    "journal/README.mkdown",
-    "comments"
+    "journal/README.mkdown"
   ]
 }

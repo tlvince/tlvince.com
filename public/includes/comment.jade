@@ -1,16 +1,16 @@
 - var permalink = 'comment' + index;
 
 blockquote(id=permalink,
-  class="#{comment._metadata.reply ? 'comment reply' : 'comment'}")
-  - var content = marked(comment._content)
+  class="#{comment.metadata.reply ? 'reply' : ''}")
+  - var content = marked(comment.markdown)
   - content = typogr.typogrify(content)
   | !{content}
   p
     small
-      if comment._metadata.url
-        a(href=comment._metadata.url)=comment._metadata.name
+      if comment.metadata.url
+        a(href=comment.metadata.url)=comment.metadata.name
       else
-        =comment._metadata.name
+        =comment.metadata.name
       | , 
       a(href='\##{permalink}')
-        mixin date(comment._metadata.date)
+        mixin date(comment.metadata.date)
