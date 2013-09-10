@@ -15,7 +15,9 @@ block description
 block content
   article
     header
-      h1=page.title
+      - title = '<h1>' + page.title + '</h1>'
+      !{identify(title, {anchor: true})}
       if page.metadata.date
         mixin date(page.metadata.date)
-    section#content!{identify(typogr.typogrify(page.html)), {anchor: true}}
+    - content = identify(page.html, {anchor: true})
+    section#content!{typogr.typogrify(content)}
