@@ -32,5 +32,8 @@
   "license": "All rights reserved",
   "bugs": {
     "url": "https://github.com/tlvince/tlvince.com/issues"
+  },
+  "scripts": {
+    "install": "scripts/build.sh"
   }
 }
