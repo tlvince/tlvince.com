@@ -13,4 +13,4 @@ block content
       h1=page.title
       if page.metadata.date
         mixin date(page.metadata.date)
-    section#content!{typogr.typogrify(page.html)}
+    section#content!{identify(typogr.typogrify(page.html)), {anchor: true}}

@@ -7,7 +7,7 @@
     "url": "http://tlvince.com",
     "comment_email": "comment@tlvince.com"
   },
-  "filenameTemplate": "/:title.html",
+  "filenameTemplate": "/:title",
   "defaultTemplate": "page.jade",
   "plugins": [
     "wintersmith-stylus"
@@ -29,8 +29,7 @@
   "ignore": [
     "assets/README.mkdown",
     "assets/styles/vendor",
-    "journal/Rakefile",
-    "journal/readme.mkd",
+    "journal/README.mkdown",
     "comments"
   ]
 }

@@ -1,1 +1,4 @@
-{ "template": "500.jade" }
+{
+  "title": "500",
+  "template": "500.jade"
+}
