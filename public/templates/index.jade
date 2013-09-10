@@ -4,6 +4,11 @@ include ../includes/date
 block append vars
   - bodyclass = 'home'
 
+block header
+  h1
+    a(href='/')= locals.author
+  p.description= locals.description
+
 block content
   - articles = _.chain(contents.journal._.pages).sortBy(function(item) {
   -   return -item.date

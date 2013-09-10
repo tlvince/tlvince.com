@@ -2,7 +2,12 @@ extends layout
 include ../includes/date
 
 block prepend title
-  | #{ page.title } |&nbsp;
+  | #{ page.title } | 
+
+block header
+  span.title
+    a(href='/')= locals.author
+  p.description= locals.description
 
 block description
   meta(name='description', content=page.metadata.abstract)
