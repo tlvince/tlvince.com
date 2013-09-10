@@ -15,10 +15,12 @@
   "require": {
     "moment": "moment",
     "_": "underscore",
-    "typogr": "typogr"
+    "typogr": "typogr",
+    "identify": "identify"
   },
   "stylus": {
-    "compress": true
+    "compress": true,
+    "include css": true
   },
   "markdown": {
     "smartLists": true,
