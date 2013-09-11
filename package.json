@@ -6,7 +6,7 @@
     "node": "0.10.x"
   },
   "dependencies": {
-    "wintersmith": "~2.0.6",
+    "wintersmith": "~2.0.7",
     "wintersmith-stylus": "~0.4.0",
     "typogr": "~0.5.2",
     "underscore": "~1.4.4",
