@@ -23,10 +23,6 @@
     "compress": true,
     "include css": true
   },
-  "markdown": {
-    "smartLists": true,
-    "smrtypants": true
-  },
   "ignore": [
     "assets/README.mkdown",
     "assets/styles/vendor",
