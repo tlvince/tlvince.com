@@ -19,7 +19,6 @@ block content
       !{identify(title, {anchor: true})}
       if page.metadata.date
         mixin date(page.metadata.date)
-    // Workaround marked applying it's own escaping
     - content = page.html.replace(/&#39;/g, "'").replace(/&quot;/g, '"')
     - content = identify(content, {anchor: true})
     section#content!{typogr.typogrify(content)}
