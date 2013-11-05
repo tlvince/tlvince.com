@@ -13,12 +13,12 @@ You my also find me on:
 
 * [Twitter][]
 * [Flickr][] (best viewed on [Fluidr][])
-* [GitHub][]
+* [GitHub][] ([ask me anything][ama]!)
 * [Stack Exchange][]
 * [LinkedIn][]
 * [Flattr][]
 
-If none of the above suit, you can always email me on: <hello@tlvince.com>
+If none of the above suit, you can always email me on: <mailto:hello@tlvince.com>
 
   [LinkedIn]: https://www.linkedin.com/in/tlvince "tlvince's profile on LinkedIn"
   [Twitter]: https://twitter.com/tlvince "tlvince's profile on Twitter"
@@ -29,3 +29,4 @@ If none of the above suit, you can always email me on: <hello@tlvince.com>
   [Fluidr]: http://www.fluidr.com/photos/tlvince "tlvince's profile on Fluidr"
   [Flattr]: https://flattr.com/profile/tlvince "tlvince's profile on Flattr"
   [mit]: http://pgp.mit.edu:11371/pks/lookup?op=vindex&fingerprint=on&search=0x6234A657E1D2EB0632AF3E62AB184CDBE6AEACDE
+  [ama]: https://github.com/tlvince/feedback
