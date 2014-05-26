@@ -5,7 +5,7 @@ template: page.jade
 ```
 
 If you'd like to contact me, PGP encrypted email is best. Here is my public key:
-**[tlvince.asc][]** ([MIT mirror][mit]). Its fingerprint is:
+**[tlvince.asc][]**. Its fingerprint is:
 
     6234 A657 E1D2 EB06 32AF  3E62 AB18 4CDB E6AE ACDE
 
@@ -28,5 +28,4 @@ If none of the above suit, you can always email me on: <mailto:hello@tlvince.com
   [Flickr]: https://secure.flickr.com/photos/tlvince "tlvince's profile on Flickr"
   [Fluidr]: http://www.fluidr.com/photos/tlvince "tlvince's profile on Fluidr"
   [Flattr]: https://flattr.com/profile/tlvince "tlvince's profile on Flattr"
-  [mit]: http://pgp.mit.edu:11371/pks/lookup?op=vindex&fingerprint=on&search=0x6234A657E1D2EB0632AF3E62AB184CDBE6AEACDE
   [ama]: https://github.com/tlvince/feedback
