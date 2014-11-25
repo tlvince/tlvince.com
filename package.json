@@ -34,6 +34,7 @@
     "url": "https://github.com/tlvince/tlvince.com/issues"
   },
   "scripts": {
-    "install": "scripts/build.sh"
+    "install": "scripts/build.sh",
+    "preview": "wintersmith preview --chdir public"
   }
 }
