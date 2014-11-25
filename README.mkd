@@ -1,11 +1,9 @@
 # tlvince.com
 
-[tlvince.com][1].
+[tlvince.com](https://tlvince.com).
 
 Powered by Node.js, Wintersmith, typogr.js and identify.js.
 
 ## Author
 
-Copyright 2012 Tom Vincent <http://tlvince.com/contact>.
-
-  [1]: http://tlvince.com
+Copyright 2014 Tom Vincent <https://tlvince.com/contact>.
