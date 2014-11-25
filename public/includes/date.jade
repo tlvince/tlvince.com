@@ -1,4 +1,4 @@
 mixin date(date)
   - var date = moment(date)
   time(datetime=date.format(), title=date)
-    !{typogr.typogrify(date.format('Do MMMM, YYYY'))}
+    | !{typogr.typogrify(date.format('Do MMMM, YYYY'))}

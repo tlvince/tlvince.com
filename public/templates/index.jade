@@ -20,6 +20,6 @@ block content
       li
         article
           header
-            !{identify(title, {anchor: true})}
+            | !{identify(title, {anchor: true})}
             mixin date(article.metadata.date)
           p= article.metadata.abstract

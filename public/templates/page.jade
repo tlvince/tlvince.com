@@ -16,10 +16,10 @@ block content
   article
     header
       - title = '<h1>' + page.title + '</h1>'
-      !{identify(title, {anchor: true})}
+      | !{identify(title, {anchor: true})}
       if page.metadata.date
         mixin date(page.metadata.date)
     - content = page.html.replace(/&#39;/g, "'").replace(/&quot;/g, '"')
     - content = identify(content, {anchor: true})
-    section#content!{typogr.typogrify(content)}
+    section#content !{typogr.typogrify(content)}
     block comments
