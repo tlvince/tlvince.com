@@ -35,6 +35,6 @@
   },
   "scripts": {
     "install": "scripts/build.sh",
-    "preview": "wintersmith preview --chdir public"
+    "start": "wintersmith preview --chdir public"
   }
 }
