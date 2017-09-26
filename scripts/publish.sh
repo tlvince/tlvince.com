@@ -10,7 +10,7 @@ rm -rf build/{comments,journal,untitled.html}
 rm -rf build/assets/{.git*,*.{png,ico,txt,xml}}
 rm -rf build/assets/styles/{anchor,base,responsive,utilities,variables}.css
 
-ditto build ../tlvince.github.io
+rsync -avz build/ ../tlvince.github.io
 cd ../tlvince.github.io
 git add .
 git commit --all --message "Publish as of $(date +%Y%m%d%H%M%S)"
