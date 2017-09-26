@@ -4,6 +4,14 @@
 
 Powered by Node.js, Wintersmith, typogr.js and identify.js.
 
+## Usage
+
+To run locally:
+
+0. `npm i`
+1. Add `.html` to `filenameTemplate` in `public/config.json`
+2. `npm start`
+
 ## Author
 
 Copyright 2014 Tom Vincent <https://tlvince.com/contact>.
