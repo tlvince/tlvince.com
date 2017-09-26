@@ -1,25 +1,58 @@
-extends layout
-include ../includes/date
+- const description = 'Founder, developer, musician'
 
-block append vars
-  - bodyclass = 'home'
-
-block header
-  h1
-    a(href='/')= locals.author
-  p.description= locals.description
-
-block content
-  - articles = _.chain(contents.journal._.pages).sortBy(function(item) {
-  -   return -item.date
-  - }).value()
-
-  ul
-    for article in articles
-      - title = '<h2><a href="' + article.url + '">' + article.title + '</a></h2>'
+doctype html
+html(lang='en-GB')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
+    title= locals.author
+    meta(name='description', content=description)
+    meta(name='viewport', content='width=device-width')
+    link(rel='alternate', href=locals.url+'/feed', type='application/rss+xml', title=locals.description)
+    style(type='text/css').
+      * {
+        margin: 0;
+        padding: 0;
+        font-weight: 300;
+      }
+      body {
+        height: 100vh;
+        display: flex;
+        font-size: 1.2em;
+        align-items: center;
+        font-family: system-ui, sans-serif;
+        flex-direction: column;
+        justify-content: center;
+      }
+      p {
+        margin-bottom: 0.4em;
+      }
+      ul {
+        display: inline-flex;
+        list-style: none;
+      }
+      li {
+        font-size: 0.8em;
+      }
+      li:not(:first-child) {
+        padding-left: 0.4em;
+      }
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+  body
+    h1= locals.author
+    p.description= description
+    ul
       li
-        article
-          header
-            | !{identify(title, {anchor: true})}
-            mixin date(article.metadata.date)
-          p= article.metadata.abstract
+        a(href='mailto:' + locals.email) Email
+      li
+        a(href='https://github.com/tlvince') GitHub
+      li
+        a(href='https://twitter.com/tlvince') Twitter
+      li
+        a(href='https://linkedin.com/in/tlvince') LinkedIn

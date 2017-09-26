@@ -3,8 +3,8 @@
     "title": "Blog | Tom Vincent",
     "description": "Essays on hacking, travel and self-improvement",
     "author": "Tom Vincent",
-    "email": "blog@tlvince.com",
-    "url": "http://tlvince.com",
+    "email": "hello@tlvince.com",
+    "url": "https://tlvince.com",
     "comment_email": "comment@tlvince.com"
   },
   "filenameTemplate": "/:title",

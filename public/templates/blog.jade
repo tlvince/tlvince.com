@@ -1,0 +1,25 @@
+extends layout
+include ../includes/date
+
+block append vars
+  - bodyclass = 'home'
+
+block header
+  h1
+    a(href='/')= locals.author
+  p.description= locals.description
+
+block content
+  - articles = _.chain(contents.journal._.pages).sortBy(function(item) {
+  -   return -item.date
+  - }).value()
+
+  ul
+    for article in articles
+      - title = '<h2><a href="' + article.url + '">' + article.title + '</a></h2>'
+      li
+        article
+          header
+            | !{identify(title, {anchor: true})}
+            mixin date(article.metadata.date)
+          p= article.metadata.abstract
